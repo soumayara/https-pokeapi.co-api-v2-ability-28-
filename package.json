@@ -1,0 +1,19 @@
+{
+  "name": "reprograma-projeto-pratico",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/nodemon/bin/nodemon src/server"
+  },
+  "author": "soumayara",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "sync": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
