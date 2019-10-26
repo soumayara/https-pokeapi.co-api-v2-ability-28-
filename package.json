@@ -1,19 +1,26 @@
 {
   "name": "reprograma-projeto-pratico",
   "version": "1.0.0",
-  "description": "API",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node_modules/nodemon/bin/nodemon src/server"
-  },
-  "author": "soumayara",
-  "license": "ISC",
   "dependencies": {
-    "readline": "^1.3.0",
-    "sync": "^0.2.5"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumayara/reprograma-projeto-pratico.git"
+  },
+  "author": "soumayara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumayara/reprograma-projeto-pratico/issues"
+  },
+  "homepage": "https://github.com/soumayara/reprograma-projeto-pratico#readme"
 }
