@@ -13,8 +13,6 @@ Criar uma API ultilizando JavaScript com NodeJS, e verbo GET
 #### Dependências
 Express
 Nodemoon
-- Breve descricação das tecnologias e dependências utilizadas, bem como a linguagem de programação que está sendo utilizada
--- Pode incluir quais ferramentas foram utilizadas para desenvolver o projeto
 
 #### Endpoints criados
 
@@ -23,4 +21,5 @@ GET	Tarefas Concluídas	'/concluidos'
 GET	Busca por ID	'/:id'
 GET	Busca por Nome	'/busca/:nome'
 
-+ Postman
+#### Postman
+https://www.getpostman.com/collections/6f2064b3d5611b414d4d
